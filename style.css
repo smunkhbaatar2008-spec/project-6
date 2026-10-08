@@ -91,7 +91,7 @@ body {
   border-radius: 7% 100%;
 }
 .pupil {
-  background-color: whitesmoke;
+  background-color: grey;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -119,7 +119,7 @@ body {
 .iris-lines {
   background: repeating-conic-gradient(
     #0000 0deg 7deg,
-    #0003 8deg 10deg,
+    grey 8deg 10deg,
     #ffffff12 10deg 12deg
   );
   width: 200px;
@@ -145,7 +145,7 @@ body {
   animation: pupil-eye 20s linear infinite;
 }
 .orbit-ring {
-  border: 1px white solid;
+  border: 1px grey solid;
   width: 120px;
   height: 120px;
   border-radius: 50%;
